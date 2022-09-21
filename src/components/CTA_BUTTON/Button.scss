@@ -1,0 +1,17 @@
+.cta__button {
+  background-color: #ff4820;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 27px;
+  color: var(--color-white);
+  min-height: 52px;
+  padding: 0 1rem;
+  outline: none;
+  cursor: pointer;
+  width: 35%;
+
+  @media screen and (max-width: 480px) {
+    width: 40%;
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,39 @@
+.features {
+  margin-top: 6rem;
+  font-family: var(--font-family);
+  h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 45px;
+    font-weight: 800;
+    text-transform: capitalize;
+
+    @media screen and (max-width: 912px) {
+      font-size: 3rem;
+    }
+    @media screen and (max-width: 480px) {
+      text-align: left;
+      font-size: 2.5rem;
+    }
+  }
+}
+
+.features__feature {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-top: 3rem;
+
+  flex-wrap: wrap;
+
+  div {
+    width: 300px;
+    margin-top: 1rem;
+    p {
+      font-weight: 500;
+      font-size: 1rem;
+      color: var(--color-text);
+    }
+  }
+}
